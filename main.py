@@ -193,7 +193,6 @@ def Home():
         time_label.config(text=string)
         time_label.after(1000, time)
         refresh()
-        #print("nigger")
 
     time_label=tk.Label(timer_frame, font=('Avenir',30,"bold"),text="",bg=grey,foreground=white)
     time_label.place(anchor=tk.CENTER, relx=0.8, rely=0.09)
