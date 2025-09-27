@@ -1,6 +1,18 @@
+"""
+File: main.py
+Author: Bisista Shrestha
+Date: 2024-06-27
+License: MIT License (see LICENSE file)
+Description: A desktop productivity app built with CustomTkinter. 
+It combines a Pomodoro timer, task manager, and notepad 
+into one interface. Features include multi-user support, 
+task persistence, and session tracking for focused work.
+"""
+
+
+
 import customtkinter as ctk
 import tkinter as tk
-#from PIL import Image
 from time import strftime
 import time as t
 import CTkTable as ctkt
@@ -366,8 +378,11 @@ def refresh():
     elif cur.tm_hour>=18:
         username_label.configure(text="Good Evening"+",\n"+username)
 
-with open('data.db',"rb") as fh:
-    master_data=pickle.load(fh)
+try:
+    with open('data.db',"rb") as fh:
+        master_data=pickle.load(fh)
+except:
+    master_data={}
 
 window=ctk.CTk()
 window.title("POMODORO")

@@ -1,0 +1,5 @@
+#Virtual Environment
+myenv/
+
+#Database file
+data.db 
