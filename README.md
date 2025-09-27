@@ -3,7 +3,7 @@
 **File:** main.py  
 **Author:** Bisista Shrestha  
 **Date:** 2024-06-27  
-**License:** MIT License (see LICENSE file)  
+**License:** MIT License (see [LICENSE](LICENSE) file)  
 
 ---
 
@@ -31,10 +31,10 @@ The app supports **multi-user accounts**, saves tasks and notes to a local datab
 
 ## Installation
 1. Clone the repository:  
-git clone <repo-url>
+git clone https://github.com/bisistashrestha/Pomodoro-Tools-App.git
 
 2. Navigate to the project folder:  
-cd <project-folder>
+cd [<project-folder>]
 
 3. Create a virtual environment:  
 python -m venv myenv
