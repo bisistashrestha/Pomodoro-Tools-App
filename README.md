@@ -54,7 +54,7 @@ python main.py
 1. Enter a **username** and click **Enter**.  
 2. Use the **Pomodoro timer** to start a focus session.  
 3. Add tasks via the **Task Manager**, or edit/remove them as needed.  
-4. Take notes in the **Notepad**, which saves automatically.  
+4. Take notes in the **Notepad**, which saves after clicking plus button.  
 5. Switch between **Pomodoro**, **Short Break**, and **Long Break** modes.  
 
 ---
