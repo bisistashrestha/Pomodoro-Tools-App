@@ -34,7 +34,7 @@ The app supports **multi-user accounts**, saves tasks and notes to a local datab
 git clone https://github.com/bisistashrestha/Pomodoro-Tools-App.git
 
 2. Navigate to the project folder:  
-cd [<project-folder>]
+cd [project-folder]
 
 3. Create a virtual environment:  
 python -m venv myenv
