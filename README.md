@@ -30,27 +30,36 @@ The app supports **multi-user accounts**, saves tasks and notes to a local datab
 ---
 
 ## Installation
-1. Clone the repository:  
+1. **Clone the repository**:  
+```
 git clone https://github.com/bisistashrestha/Pomodoro-Tools-App.git
+```
 
-2. Navigate to the project folder:  
-cd [project-folder]
+2. **Navigate to the project folder**:  
+```
+cd Pomodoro-Tools-App
+```
 
-3. Create a virtual environment:  
+3. **Create a virtual environment**:  
+```
 python -m venv myenv
+```
 
-4. Activate the environment:  
+4. **Activate the environment**:  
 - **Windows:** `myenv\Scripts\activate`  
 - **Linux/macOS:** `source myenv/bin/activate`
 
-5. Install dependencies:  
+5. **Install dependencies**:  
+```
 pip install -r requirements.txt
+```
 
-
-python main.py
 ---
 
 ## Usage
+```
+python main.py
+```
 1. Enter a **username** and click **Enter**.  
 2. Use the **Pomodoro timer** to start a focus session.  
 3. Add tasks via the **Task Manager**, or edit/remove them as needed.  
