@@ -3,13 +3,15 @@
 A desktop productivity application built with **Python and CustomTkinter** that combines a Pomodoro timer, task manager, and personal notepad into a single workspace.
 
 | ![Login Page](assets/login.png) |
-|--|
-| **Login Page** |
+|:--:|
+| *Login Page* |
 
 
 | ![Home Page](assets/UI.png) |
-|--|
-| **[🎥 Watch The Full Demo on YouTube!](https://youtu.be/JJSbInN03TY)** |
+|:--:|
+| *Home Page* |
+
+*[🎥 Watch The Full Demo on YouTube!](https://youtu.be/JJSbInN03TY)*
 
 ---
 
