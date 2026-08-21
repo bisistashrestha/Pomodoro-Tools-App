@@ -76,7 +76,7 @@ The application supports **multiple users**, stores their tasks and notes locall
 * **Tkinter** — additional GUI components
 * **CTkTable** — task table
 * **Threading** — timer execution
-* **Pickle** — local data persistence
+* **Pickle** — local data persistence (serializes data into `data.db`)
 
 ---
 
@@ -85,6 +85,11 @@ The application supports **multiple users**, stores their tasks and notes locall
 ```text
 Pomodoro-Tools-App/
 │
+├── assets/
+│   ├── login.png
+│   ├── UI.png
+│   ├── Thumbnail.png
+│   └── pomodoro demo video.mp4
 ├── main.py
 ├── requirements.txt
 ├── data.db
